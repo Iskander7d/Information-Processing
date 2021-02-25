@@ -1,8 +1,6 @@
 #!/usr/bin/env python
 
-"""
-a simple implementation of Apriori algorithm by Python.
-"""
+
 
 import sys
 import csv
@@ -249,7 +247,6 @@ def filter_ordered_statistics(ordered_statistics, **kwargs):
 ################################################################################
 def apriori(transactions, **kwargs):
     """
-    Executes Apriori algorithm and returns a RelationRecord generator.
 
     Arguments:
         transactions -- A transaction iterable object
@@ -417,9 +414,7 @@ def dump_as_two_item_tsv(record, output_file):
 
 
 def main(**kwargs):
-    """
-    Executes Apriori algorithm and print its result.
-    """
+
     # For tests.
     _parse_args = kwargs.get('_parse_args', parse_args)
     _load_transactions = kwargs.get('_load_transactions', load_transactions)
