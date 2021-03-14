@@ -86,7 +86,7 @@ target/
 
 # Jupyter Notebook
 Apriori/.ipynb_checkpoints
-DecisionTree/.ipynb_checkpoints
+DecisionTree/grades/.ipynb_checkpoints
 
 # IPython
 profile_default/
